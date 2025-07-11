@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: '#10B981', // your teal
+      },
+      borderRadius: {
+        xl: '1rem',
+      },
+    },
   },
   plugins: [],
 };
