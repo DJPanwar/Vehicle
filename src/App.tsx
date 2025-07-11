@@ -4,7 +4,7 @@ import { Bell, Battery, Plug, Sun } from 'lucide-react';
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+    
       <header className="bg-white shadow-md shadow-slate-400 balck px-10 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
@@ -26,7 +26,7 @@ function App() {
         <p className="text-gray-500 text-sm">Last Active 28 Nov 2024 10:39</p>
       </div>
 
-      {/* Main Content */}
+  
       <div className="px-10 py-6 bg-[#f7f7f2]">
 
         <div className="flex flex-col lg:flex-row gap-8">
@@ -38,7 +38,7 @@ function App() {
                 <p className="text-gray-500 text-lg font-bold">CP FOTON iBlue45</p>
               </div>
 
-              {/* Vehicle Image */}
+              
               <div className="flex justify-center mb-4">
                 <img
                   src={Truck}
@@ -47,7 +47,7 @@ function App() {
                 />
               </div>
 
-              {/* Vehicle Details */}
+             
               <div className="space-y-2 mb-4">
                 <div className="flex justify-between">
                   <span className="text-gray-600">VIN</span>
@@ -64,7 +64,7 @@ function App() {
               </div>
             </div>
 
-            {/* Charging Port */}
+          
             <div className="border-t pt-4">
               <div className="flex items-center space-x-2 mb-2">
                 <Plug className="w-5 h-5 text-gray-600" />
@@ -76,26 +76,26 @@ function App() {
 
 
 
-          {/* Right Column - Maximum Width */}
+         
           <div className="space-y-6 flex-1">
-            {/* Battery Info Section */}
+            
             <div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Battery Info</h3>
               <div className="flex gap-4">
-                {/* Current Battery - Large Card */}
+              
                 <div className="bg-white rounded-xl shadow-sm p-6 flex-shrink-0 w-[228px]">
                   <p className="text-sm text-gray-900 mb-4 font-bold text-center">Current Battery</p>
                   <div className="flex flex-col items-center justify-center mb-4">
                     <div className="flex items-center">
-                      {/* Battery Icon */}
+                      
                       <svg className="w-12 h-24" viewBox="0 0 50 100" fill="none">
-                        {/* Battery outline */}
+                        
                         <rect x="5" y="10" width="40" height="80" rx="8" stroke="#d8d9db" strokeWidth="4" fill="white" />
 
-                        {/* Battery terminal */}
+                        
                         <rect x="20" y="0" width="10" height="10" rx="2" fill="#d8d9db" />
 
-                        {/* Gradient Fill */}
+                      
                         <defs>
                           <linearGradient id="batteryGradient" x1="0" y1="100" x2="0" y2="0">
                             <stop offset="0%" stopColor="#85ec95" />
@@ -116,17 +116,17 @@ function App() {
                         />
                       </svg>
 
-                      {/* Percentage Text */}
+                      
                       <p className="text-3xl font-bold text-gray-900 ml-4">85%</p>
                     </div>
                   </div>
                   <p className="text-sm text-gray-500 text-center">SOH 100%</p>
                 </div>
 
-                {/* 8 Data Cards in 2x4 Grid - Expanded */}
+                
                 <div className="flex-1 min-w-0">
                   <div className="grid grid-cols-4 gap-4 h-full">
-                    {/* Row 1 */}
+                   
                     <div className="bg-white rounded-xl shadow-sm p-4">
                       <p className="text-sm font-bold text-gray-900 mb-2">Nominal Capacity</p>
                       <p className="text-2xl text-teal-600 inline font-bold">
@@ -155,7 +155,7 @@ function App() {
                       </p>
                     </div>
 
-                    {/* Row 2 */}
+                  
                     <div className="bg-white rounded-xl shadow-sm p-4">
                       <p className="text-sm font-bold text-gray-900 mb-2">Max Volt</p>
                       <p className="text-2xl text-teal-600 inline font-bold">
@@ -189,11 +189,11 @@ function App() {
               </div>
             </div>
 
-            {/* Speed Info Section */}
+           
             <div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Speed Info</h3>
               <div className="flex gap-4">
-                {/* Current Speed */}
+                
                 <div className="bg-white rounded-xl shadow-sm p-6 flex-shrink-0 w-[228px]">
                   <p className="text-sm text-gray-900 mb-4 font-bold text-center">Current Speed</p>
                   <div className="flex items-center justify-center mb-4">
@@ -239,7 +239,6 @@ function App() {
                   </div>
                 </div>
 
-                {/* Right side - 2x2 Grid - Expanded */}
                 <div className="flex-1 min-w-0">
                   <div className="grid grid-cols-2 gap-4 h-full">
                     {/* Top Row */}
@@ -259,8 +258,6 @@ function App() {
                       </div>
                     </div>
 
-
-                    {/* Bottom Row */}
                     <div className="bg-white rounded-xl shadow-sm p-4">
                       <p className="text-sm font-bold text-gray-900 mb-2">Odometer</p>
                       <div className="flex justify-between items-baseline">
@@ -283,8 +280,7 @@ function App() {
                             </div>
                           </div>
                         </div>
-
-                        {/* Max Temp */}
+                        
                         <div>
                           <p className="text-sm font-bold text-gray-900 mb-2">Max Temp</p>
                           <div className="flex items-baseline space-x-1">
